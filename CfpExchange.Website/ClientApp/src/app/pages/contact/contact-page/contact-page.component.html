@@ -1,0 +1,45 @@
+<div class="contact-page">
+    <div class="contact-page-header">
+        <h2>Contact</h2>
+        <p>
+            If you want to get in contact, please fill out the form below. We
+            will try to get back to you as soon as possible
+        </p>
+    </div>
+    <div class="contact-form-container">
+        <form class="contact-form">
+            <mat-form-field class="full-width">
+                <input
+                    matInput
+                    type="text"
+                    placeholder="Name"
+                    formControlName="name"
+                />
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input
+                    matInput
+                    type="email"
+                    placeholder="Email"
+                    formControlName="email"
+                />
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input
+                    matInput
+                    type="subject"
+                    placeholder="Subject"
+                    formControlName="subject"
+                />
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <textarea
+                    matInput
+                    placeholder="Message"
+                    formControlName="message"
+                >
+                </textarea>
+            </mat-form-field>
+        </form>
+    </div>
+</div>
